@@ -1,0 +1,34 @@
+#header{
+  height:10vh;
+  width:100vw;
+  display:flex;
+}
+#logo{
+  border:2px solid black;
+  font:800 40pt Courier;
+  color:red;
+  flex:1;
+}
+#title{
+    border:2px solid black;
+  font:800 40pt Courier;
+  flex:2;
+}
+#content{
+  display:flex;
+  height:80vh;
+  width:100vh;
+}
+#menu{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+}
+#preview{
+  flex:4;
+}
+#items{
+  flex:2;
+  height:10vh;
+  
+}
